@@ -1,8 +1,8 @@
 # 🍜 ♂️ Vineet Agarwal
 
-**`Digital Craftsman (Developer/Creator)`**
+**`Digital Craftsman`** 
 
-I am a software engineer perfecting the craft of building the most beautiful soup of code that is pleasing to the eye and the mind. 
+I am a software engineer perfecting the craft of building the most beautiful soup of code that is pleasing to look at and consume.
 I like to keep things sophisticatedly simple and elegantly rustic. That is also the approach I take to code and how I learn new
 techinques to make the soup tastier.
 
