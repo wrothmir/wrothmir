@@ -47,7 +47,7 @@ export default function Home() {
         md:px-36
         lg:px-52 
         xl:px-80
-        2xl:px-[35rem]'>
+        2xl:px-[32rem]'>
           <section id='home' className='h-screen flex flex-col justify-center items-center
           sm:pt-56
           md:pt-40'>
