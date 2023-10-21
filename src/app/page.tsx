@@ -1,41 +1,36 @@
 'use client'
 import Image from 'next/image'
-import { useState } from 'react'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import { FaReact, FaAngular, FaPython, FaJava, FaHtml5, FaCss3, FaGitAlt, FaSquareGithub, FaBootstrap, FaNodeJs, FaDocker, FaLinux } from 'react-icons/fa6'
-import { SiJavascript, SiTypescript, SiCplusplus, SiMysql, SiTailwindcss, SiFlask, SiFirebase, SiAmazonaws, SiPandas, SiPytorch } from 'react-icons/si'
-import { BiLogoGoogleCloud } from 'react-icons/bi'
-import { TbBrandNextjs } from 'react-icons/tb'
 import nooodlesoup from '../public/nooodle-soup.jpeg'
 import { projectsData } from './data/projects'
 import { aboutData } from './data/about'
 import { ModeToggle } from '@/components/mode-toggle'
+import { IconTooltip } from '@/components/icon-with-tooltip'
+import { toolkitData } from './data/toolkit'
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div className={darkMode ? "dark" : ""} >
-      <main className='font-default 
-      dark:bg-slate dark:text-white'>
+    <div>
+      <main className='font-default'>
         <div className='fixed w-screen top-0 z-50 text-xl
         sm:text-2xl'>
           <nav className='px-10 pt-10 mb-8 font-default flex justify-between items-center'>
-            <h1 className='font-name'>
+            <h1 className='font-name text-rose-of-sharon-700'>
               <a href='#'>
                 VINEET
               </a>
             </h1>
             <ul className='flex items-center'>
               <li className='mr-5'>
-              <ModeToggle />
-              </li>
-              <li className='mr-5 text-rose-of-sharon-950
-              dark:text-rose-of-sharon-100'>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer' />
+                <ModeToggle />
               </li>
               {/*
+                  <li className='mr-5 text-rose-of-sharon-950
+dark:text-rose-of-sharon-100'>
+<BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} 
+className='cursor-pointer' />
+</li>
             <li className='text-rose-of-sharon-800 text-2xl'>
               <a>
                 <GiHamburgerMenu className='cursor-pointer' />
@@ -104,80 +99,12 @@ export default function Home() {
             sm:gap-8 sm:gap-y-10 sm:text-4xl sm:p-10
             md:text-5xl
             lg:grid-cols-6 lg:text-5xl lg:gap-10 lg:gap-y-12'>
-              <div className='flex justify-center'>
-                <FaPython />
-              </div>
-              <div className='flex justify-center'>
-                <FaJava />
-              </div>
-              <div className='flex justify-center'>
-                <FaHtml5 />
-              </div>
-              <div className='flex justify-center'>
-                <FaCss3 />
-              </div>
-              <div className='flex justify-center'>
-                <SiJavascript />
-              </div>
-              <div className='flex justify-center'>
-                <SiTypescript />
-              </div>
-              <div className='flex justify-center'>
-                <SiCplusplus />
-              </div>
-              <div className='flex justify-center'>
-                <SiMysql />
-              </div>
-              <div className='flex justify-center'>
-                <TbBrandNextjs />
-              </div>
-              <div className='flex justify-center'>
-                <FaReact />
-              </div>
-              <div className='flex justify-center'>
-                <FaAngular />
-              </div>
-              <div className='flex justify-center'>
-                <FaNodeJs />
-              </div>
-              <div className='flex justify-center'>
-                <FaBootstrap />
-              </div>
-              <div className='flex justify-center'>
-                <SiTailwindcss />
-              </div>
-              <div className='flex justify-center'>
-                <SiFlask />
-              </div>
-              <div className='flex justify-center'>
-                <FaDocker />
-              </div>
-              <div className='flex justify-center'>
-                <FaLinux />
-              </div>
-              <div className='flex justify-center'>
-                <SiFirebase />
-              </div>
-              <div className='flex justify-center'>
-                <SiAmazonaws />
-              </div>
-              <div className='flex justify-center'>
-                <BiLogoGoogleCloud />
-              </div>
-              <div className='flex justify-center'>
-                <FaGitAlt />
-              </div>
-              <div className='flex justify-center'>
-                <FaSquareGithub />
-              </div>
-              <div className='flex justify-center'>
-                <SiPandas />
-              </div>
-              <div className='flex justify-center'>
-                <SiPytorch />
-              </div>
+              {toolkitData.map((icon, index) => (
+                <div key={index} className='flex justify-center'>
+                  <IconTooltip icon={icon.src} iconTooltip={icon.alt} />
+                </div>
+              ))}
             </div>
-
           </section>
           <section id='portfolio' className='pt-20'>
             <p className='py-2 font-name underline underline-offset-4 uppercase tracking-wider
@@ -191,50 +118,50 @@ export default function Home() {
               of my projects where I transform lines of code into real-world magic.
             </p>
             {projectsData.map((project) => (
-            <div key={project.key} className='shadow-xl rounded-lg 
+              <div key={project.key} className='shadow-xl rounded-lg 
             flex items-center justify-center 
             my-4 p-2'>
-              <article className='flex-col
+                <article className='flex-col
               2xl:flex-row'>
-                <div style={{ position: 'relative' }}
-                  className='border-t-2 border-x-2 border-rose-of-sharon-950 rounded-t-md 
+                  <div style={{ position: 'relative' }}
+                    className='border-t-2 border-x-2 border-rose-of-sharon-950 rounded-t-md 
                   bg-black flex-1 h-64 overflow-hidden
                   sm:h-80'>
-                  <Image src={project.src} alt={project.alt} fill={true} style={{ objectFit: "cover" }} />
-                </div>
-                <div className='flex-col 
+                    <Image src={project.src} alt={project.alt} fill={true} style={{ objectFit: "cover" }} />
+                  </div>
+                  <div className='flex-col 
                 border-b-2 border-x-2 border-t rounded-b-md border-rose-of-sharon-950 
                 flex-1 h-64
                 sm:h-52
                 md:px-8 md:h-56'>
-                  <div className='h-20 flex justify-center items-center
+                    <div className='h-20 flex justify-center items-center
                   font-name uppercase text-lg pt-4 
                   sm:h-16 sm:text-xl
                   lg:text-2xl'>
-                    <p>
-                      {project.title}
-                    </p>
-                  </div>
-                  <p className='text-sm leading-5 h-28 p-2
+                      <p>
+                        {project.title}
+                      </p>
+                    </div>
+                    <p className='text-sm leading-5 h-28 p-2
                   sm:h-min
                   lg:text-lg lg:leading-6 lg:text-gray-600'>
-                    {project.description} 
-                  </p>
-                  <div className='font-name flex justify-evenly pt-2
+                      {project.description}
+                    </p>
+                    <div className='font-name flex justify-evenly pt-2
                   sm:pt-3
                   lg:text-lg'>
-                    {project.href.map((link, index) => (
-                    <a key={index} className='px-4 py-2 rounded-md 
+                      {project.href.map((link, index) => (
+                        <a key={index} className='px-4 py-2 rounded-md 
                     bg-gradient-to-tr from-rose-of-sharon-300 to-rose-of-sharon-600'
-                      href={link.url}
-                      target='_blank'>
-                      {link.label}
-                    </a>
-                    ))}
+                          href={link.url}
+                          target='_blank'>
+                          {link.label}
+                        </a>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </article>
-            </div>
+                </article>
+              </div>
             ))}
           </section>
           <section id='about' className='h-max pt-36 pb-8'>
@@ -251,10 +178,10 @@ export default function Home() {
             sm:text-lg sm:leading-9
             md:text-center'>
               {aboutData.content.map((paragraph, index) => (
-              <p key={index} className='py-5
+                <p key={index} className='py-5
               sm:py-2'>
-                {paragraph}
-              </p>
+                  {paragraph}
+                </p>
               ))}
             </div>
             <div className='text-4xl 
