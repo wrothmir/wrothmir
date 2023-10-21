@@ -1,7 +1,7 @@
-import indexgenerator from '../../../public/Automated Index Calculator.png'
-import corpcal from '../../../public/segmentation test.gif'
-import eventseeker from '../../../public/party.jpeg'
-import laneguard from '../../../public/Lane Detection.jpg'
+import indexgenerator from '../../public/Automated Index Calculator.png'
+import corpcal from '../../public/segmentation test.gif'
+import eventseeker from '../../public/party.jpeg'
+import laneguard from '../../public/Lane Detection.jpg'
 
 export const projectsData = [
   {
