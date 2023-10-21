@@ -5,7 +5,12 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 
-export function IconTooltip({icon, iconTooltip}) {
+interface IconTooltipProps {
+  icon: React.ReactElement;
+  iconTooltip: string;
+}
+
+export function IconTooltip({icon, iconTooltip}: IconTooltipProps) {
   return (
     <TooltipProvider>
       <Tooltip>
