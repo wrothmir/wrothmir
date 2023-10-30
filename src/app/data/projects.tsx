@@ -35,7 +35,7 @@ export const projectsData = [
     src: eventseeker,
     alt: "Event Seeker",
     title: "Event Seeker",
-    description: "Discover local events and activities near you with this dynomic event search app, tailored to your interests and location.",
+    description: "Discover local events and activities near you with this dynamic event search app, tailored to your interests and location.",
     href: [
       {
         label: "Learn More",
