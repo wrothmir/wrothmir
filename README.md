@@ -4,7 +4,7 @@
 
 I am a software engineer perfecting the craft of building the most beautiful soup of code that is pleasing to look at and consume.
 I like to keep things sophisticatedly simple and elegantly rustic. That is also the approach I take to code and how I learn new
-techinques to make the soup tastier.
+techniques to make the soup tastier.
 
 Browse through my repositories to see all kinds of soup I have created till now.
 
