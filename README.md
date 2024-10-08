@@ -1,12 +1,10 @@
-# 🍜 ♂️ Vineet Agarwal
+## 🐺 Hi, I'm Raikan
 
-**`Digital Craftsman`** 
+I am a digital craftsman perfecting my craft of creating reliable, robust and useful code.
+I like to keep things sophisticatedly simple and elegantly rustic. 
+That is also the approach I take to code and how I learn new techniques.
 
-I am a software engineer perfecting the craft of building the most beautiful soup of code that is pleasing to look at and consume.
-I like to keep things sophisticatedly simple and elegantly rustic. That is also the approach I take to code and how I learn new
-techniques to make the soup tastier.
-
-Browse through my repositories to see all kinds of soup I have created till now.
+Browse through my repositories to see some of the stuff I have created till now.
 
 ---
 
@@ -28,11 +26,8 @@ Browse through my repositories to see all kinds of soup I have created till now.
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br />
 
-#
+### 📊 Stats
 
-<!-- ### 📊 Stats
+![Raikan's GitHub stats](https://github-readme-stats.vercel.app/api?username=raikan-san&show_icons=true&theme=gruvbox)
 
-![Forrest's GitHub stats](https://github-readme-stats.vercel.app/api?username=nooodle-soup&show_icons=true&theme=gruvbox)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=nooodle-soup&theme=gruvbox&border_radius=4.5) 
--->
+![GitHub Streak](https://streak-stats.demolab.com?user=raikan-san&theme=gruvbox&border_radius=4.5) 
