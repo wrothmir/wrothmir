@@ -1,4 +1,4 @@
-## 🐺 Hi, I'm Raikan
+## 🐺 Hi, I'm Fenrir
 
 I am a digital craftsman perfecting my craft of creating reliable, robust and useful code.
 I like to keep things sophisticatedly simple and elegantly rustic. 
