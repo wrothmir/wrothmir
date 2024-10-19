@@ -26,6 +26,6 @@ Browse through my repositories to see some of the stuff I have created till now.
 
 ### 📊 Stats
 
-![Raikan's GitHub stats](https://github-readme-stats.vercel.app/api?username=raikan-san&show_icons=true&theme=gruvbox)
+![Raikan's GitHub stats](https://github-readme-stats.vercel.app/api?username=fenrir-san&show_icons=true&theme=gruvbox)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=raikan-san&theme=gruvbox&border_radius=4.5) 
+![GitHub Streak](https://streak-stats.demolab.com?user=fenrir-san&theme=gruvbox&border_radius=4.5) 
