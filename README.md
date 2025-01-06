@@ -1,10 +1,6 @@
 ## 🐺 Hi, I'm Fenrir
 
-I am a digital craftsman perfecting my craft of creating reliable, robust and useful code.
-I like to keep things sophisticatedly simple and elegantly rustic. 
-That is also the approach I take to code and how I learn new techniques.
-
-Browse through my repositories to see some of the stuff I have created till now.
+A guy making things
 
 ### 🧰 Languages and Tools
 
