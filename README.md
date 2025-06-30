@@ -24,8 +24,8 @@ I make games and whatever else seems fun to me.
 <span title="Java"><img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/></span>
 <br />
 
-### 📊 Stats
+<!--### 📊 Stats-->
 
-![Raikan's GitHub stats](https://github-readme-stats.vercel.app/api?username=wrothmir&show_icons=true&theme=ayu-mirage)
+<!--![Raikan's GitHub stats](https://github-readme-stats.vercel.app/api?username=wrothmir&show_icons=true&theme=ayu-mirage)-->
 
 <!--![GitHub Streak](https://streak-stats.demolab.com?user=wrothmir&theme=ayu-mirage&border_radius=4.5) >-->
